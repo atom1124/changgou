@@ -11,6 +11,7 @@ import java.util.List;
 
 /**
  * @author Steven
+ *
  * @version 1.0
  * @description com.changgou.goods.feign
  * @date 2019-12-25
