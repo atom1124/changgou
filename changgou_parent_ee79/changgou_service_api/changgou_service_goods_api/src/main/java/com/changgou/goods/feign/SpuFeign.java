@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
+
 /**
  * @author Steven
  * @version 1.0
@@ -14,8 +16,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @date 2019-12-25
  */
 //FeignClient(name:微服务的名称)
-@FeignClient(name = "goods")
+
 @RequestMapping("/spu")
+@FeignClient(name = "goods")
 public interface SpuFeign {
     /***
      * 根据ID查询Spu数据
